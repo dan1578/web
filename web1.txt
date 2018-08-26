@@ -1,0 +1,52 @@
+HTML 코딩 실습 환경 준비
+1. 웹브라우저
+2. HTML이라고 하는 언어의 문법에 맞게 코드를 작성하는 프로그램: 에디터   ex메모장
+   --> 우리가 쓸 건 '아톰' but 자신에게 맞는 거, 최신 거 is better
+
+: 브라우저에서 같은 컴퓨터에 있는 html 파일 열 때 ctrl+O
+
+: 태그
+<strong> 두껍게 </strong>
+<u> 밑줄 </u>
+<br> 줄바꿈
+<p> 단락 </p>
+<img src="" width="">
+
+:속성
+태그의 이름만으로 정보가 부족할 때.
+순서는 노상관
+src
+width 등등
+
+:부모-자식 태그
+<parent>
+    <child></child>
+</parent>
+
+:목차
+<ul>  unorderedlist
+     <li> 리스트 </li>
+</ul>
+--> 목록 구분 하기
+
+<ol> oderedlist
+   <li> 리스트 </li>
+</ol>
+--> 순서도 매겨줌
+
+
+: 슈퍼스타들
+<!doctype html>
+<html>
+<haed> 본문을 설명하는 태그들
+<title> 페이지 제목 </title>
+<meta charset="utf-8'>
+</head>
+<body> 본문 </body>
+</html>
+
+:anchor
+정보의 바다에 닻을 내린다! --> 링크!
+<a href="주소"> 링크 </a>
+target=_'blank" 새창
+title="미리보기"
